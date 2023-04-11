@@ -1,0 +1,371 @@
+2023-04-11 18:46:18.433 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2023-04-11 18:46:18.851 [main] INFO  Application - Application started in 0.491 seconds.
+2023-04-11 18:46:19.081 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2023-04-11 18:46:30.961 [KtorShutdownHook] TRACE io.ktor.server.websocket.WebSockets - Shutdown WebSockets due to application stop
+2023-04-11 18:46:30.962 [main] TRACE io.ktor.server.websocket.WebSockets - Shutdown WebSockets due to application stop
+2023-04-11 18:46:41.601 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2023-04-11 18:46:42.084 [main] INFO  Application - Application started in 0.536 seconds.
+2023-04-11 18:46:42.309 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2023-04-11 18:47:32.040 [KtorShutdownHook] TRACE io.ktor.server.websocket.WebSockets - Shutdown WebSockets due to application stop
+2023-04-11 18:47:32.042 [main] TRACE io.ktor.server.websocket.WebSockets - Shutdown WebSockets due to application stop
+2023-04-11 18:47:46.514 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2023-04-11 18:47:47.052 [main] INFO  Application - Application started in 0.609 seconds.
+2023-04-11 18:47:47.272 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://127.0.0.1:8080
+2023-04-11 18:47:55.852 [KtorShutdownHook] TRACE io.ktor.server.websocket.WebSockets - Shutdown WebSockets due to application stop
+2023-04-11 18:47:55.853 [main] TRACE io.ktor.server.websocket.WebSockets - Shutdown WebSockets due to application stop
+2023-04-11 18:49:43.109 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2023-04-11 18:49:43.493 [main] INFO  Application - Application started in 0.435 seconds.
+2023-04-11 18:49:43.711 [DefaultDispatcher-worker-2] INFO  Application - Responding at http://127.0.0.1:8080
+2023-04-11 18:50:34.117 [eventLoopGroupProxy-4-1] TRACE io.ktor.routing.Routing - Trace for [chat]
+/, segment:0 -> SUCCESS @ /
+  /chat, segment:1 -> SUCCESS @ /chat
+    /chat/(method:GET), segment:1 -> SUCCESS @ /chat/(method:GET)
+      /chat/(method:GET)/(header:Connection = Upgrade), segment:1 -> SUCCESS @ /chat/(method:GET)/(header:Connection = Upgrade)
+        /chat/(method:GET)/(header:Connection = Upgrade)/(header:Upgrade = websocket), segment:1 -> SUCCESS @ /chat/(method:GET)/(header:Connection = Upgrade)/(header:Upgrade = websocket)
+Matched routes:
+  "" -> "chat" -> "(method:GET)" -> "(header:Connection = Upgrade)" -> "(header:Upgrade = websocket)"
+Route resolve result:
+  SUCCESS @ /chat/(method:GET)/(header:Connection = Upgrade)/(header:Upgrade = websocket)
+2023-04-11 18:50:34.157 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - Starting default WebSocketSession(io.ktor.websocket.DefaultWebSocketSessionImpl@44529103) with negotiated extensions: 
+2023-04-11 18:50:34.158 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Starting WebSocket pinger coroutine with period 15000 ms and timeout 15000 ms
+2023-04-11 18:50:34.171 [eventLoopGroupProxy-3-2] TRACE io.ktor.server.websocket.WebSockets - Starting websocket session for /chat
+2023-04-11 18:50:34.176 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - Sending Frame TEXT (fin=true, buffer len = 18) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:50:49.178 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:50:49.182 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:50:49.183 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:50:49.183 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:50:57.337 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame TEXT (fin=true, buffer len = 13)
+2023-04-11 18:50:57.346 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Sending Frame TEXT (fin=true, buffer len = 23) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:51:04.198 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:51:04.203 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:51:04.204 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:51:04.204 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:51:19.207 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:51:19.211 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:51:19.212 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:51:19.213 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:51:34.154 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 18:51:34.154 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 18:51:34.154 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:51:34.217 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:51:34.218 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:51:34.218 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:51:34.218 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:51:49.222 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:51:49.225 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:51:49.226 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:51:49.227 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:52:04.243 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:52:04.247 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:52:04.247 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:52:04.248 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:52:19.260 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:52:19.261 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:52:19.262 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:52:19.262 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:52:34.152 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 18:52:34.152 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 18:52:34.153 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:52:34.275 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:52:34.277 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:52:34.277 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:52:34.278 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:52:49.288 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:52:49.289 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:52:49.289 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:52:49.289 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:53:04.302 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:53:04.305 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:53:04.306 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:53:04.306 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:53:19.311 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:53:19.315 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:53:19.316 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:53:19.317 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:53:34.141 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 18:53:34.142 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 18:53:34.142 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:53:34.325 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:53:34.326 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:53:34.327 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:53:34.327 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:53:49.339 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:53:49.343 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:53:49.344 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:53:49.344 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:54:04.355 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:54:04.359 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:54:04.360 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:54:04.361 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:54:19.373 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:54:19.377 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:54:19.378 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:54:19.379 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:54:34.149 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 18:54:34.150 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 18:54:34.150 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:54:34.395 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:54:34.396 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:54:34.396 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:54:34.396 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:54:49.402 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:54:49.406 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:54:49.407 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:54:49.407 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:55:04.414 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:55:04.415 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:55:04.415 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:55:04.415 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:55:19.416 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:55:19.420 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:55:19.421 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:55:19.421 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:55:34.154 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 18:55:34.155 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 18:55:34.156 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:55:34.433 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:55:34.434 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:55:34.435 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:55:34.435 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:55:49.440 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:55:49.443 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:55:49.444 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:55:49.444 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:56:04.448 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:56:04.450 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:56:04.451 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:56:04.451 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:56:19.458 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:56:19.462 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:56:19.463 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:56:19.463 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:56:34.152 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 18:56:34.152 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 18:56:34.153 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:56:34.472 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:56:34.476 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:56:34.476 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:56:34.477 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:56:49.484 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:56:49.485 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:56:49.486 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:56:49.486 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:57:04.500 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:57:04.508 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:57:04.508 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:57:04.508 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:57:19.523 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:57:19.527 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:57:19.528 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:57:19.528 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:57:34.142 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 18:57:34.143 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 18:57:34.143 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:57:34.529 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:57:34.533 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:57:34.534 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:57:34.534 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:57:49.538 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:57:49.921 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:57:49.921 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:57:49.921 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:58:04.927 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:58:04.931 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:58:04.932 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:58:04.932 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:58:19.934 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:58:19.935 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:58:19.935 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:58:19.935 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:58:19.973 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame TEXT (fin=true, buffer len = 12)
+2023-04-11 18:58:19.974 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Sending Frame TEXT (fin=true, buffer len = 22) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:58:34.140 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 18:58:34.140 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 18:58:34.141 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:58:34.942 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:58:34.946 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:58:34.947 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:58:34.947 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:58:49.954 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:58:49.958 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:58:49.958 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:58:49.959 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:59:04.963 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:59:04.966 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:59:04.967 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:59:04.967 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:59:19.968 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:59:19.972 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:59:19.973 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:59:19.973 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:59:34.141 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 18:59:34.142 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 18:59:34.142 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 18:59:34.978 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:59:34.979 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:59:34.979 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:59:34.979 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 18:59:49.988 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 18:59:49.992 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:59:49.993 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 18:59:49.993 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:00:05.000 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:00:05.004 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:00:05.004 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:00:05.005 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:00:20.011 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:00:20.016 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:00:20.016 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:00:20.016 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:00:34.153 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 19:00:34.154 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 19:00:34.154 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 19:00:35.029 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:00:35.033 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:00:35.033 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:00:35.034 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:00:50.045 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:00:50.049 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:00:50.049 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:00:50.049 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:01:05.054 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:01:05.058 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:01:05.058 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:01:05.059 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:01:20.064 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:01:20.068 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:01:20.069 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:01:20.069 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:01:34.147 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 19:01:34.148 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 19:01:34.148 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 19:01:35.076 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:01:35.080 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:01:35.080 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:01:35.081 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:01:50.085 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:01:50.088 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:01:50.089 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:01:50.090 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:02:05.105 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:02:05.108 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:02:05.109 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:02:05.109 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:02:20.112 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:02:20.116 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:02:20.116 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:02:20.116 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:02:34.148 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 19:02:34.148 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 19:02:34.149 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 19:02:35.130 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:02:35.134 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:02:35.135 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:02:35.135 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:02:50.149 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:02:50.153 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:02:50.153 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:02:50.154 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:03:05.158 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:03:05.161 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:03:05.162 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:03:05.163 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:03:20.168 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:03:20.169 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:03:20.169 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:03:20.169 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:03:34.149 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 19:03:34.149 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 19:03:34.150 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 19:03:35.179 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:03:35.186 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:03:35.187 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:03:35.187 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:03:50.201 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:03:50.205 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:03:50.206 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:03:50.206 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:04:05.213 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:04:05.214 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:04:05.214 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:04:05.214 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:04:20.231 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:04:20.234 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:04:20.235 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:04:20.235 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:04:34.152 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 19:04:34.152 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 19:04:34.152 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 19:04:35.247 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:04:35.248 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:04:35.248 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:04:35.248 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:04:50.251 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:04:50.255 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:04:50.255 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:04:50.255 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:05:05.263 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:05:05.264 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:05:05.264 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:05:05.264 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:05:20.270 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:05:20.273 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:05:20.274 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:05:20.274 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:05:34.151 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 19:05:34.151 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 19:05:34.151 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 19:05:35.276 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:05:35.277 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:05:35.277 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:05:35.277 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:05:50.286 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:05:50.290 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:05:50.290 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:05:50.291 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:06:05.293 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:06:05.294 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:06:05.294 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:06:05.294 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:06:20.308 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:06:20.309 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:06:20.309 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:06:20.309 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:06:34.153 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 19:06:34.153 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 19:06:34.153 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 19:06:35.321 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:06:35.325 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:06:35.325 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:06:35.325 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:06:50.335 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:06:50.339 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:06:50.339 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:06:50.339 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:07:05.356 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:07:05.357 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:07:05.357 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:07:05.357 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:07:20.366 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:07:20.369 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:07:20.370 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:07:20.370 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:07:34.152 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PING (fin=true, buffer len = 0)
+2023-04-11 19:07:34.153 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Received ping message, sending pong message
+2023-04-11 19:07:34.153 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - Sending Frame PONG (fin=true, buffer len = 0) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 19:07:35.386 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:07:35.387 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:07:35.387 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:07:35.387 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:07:50.396 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:07:50.399 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:07:50.400 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:07:50.400 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:08:05.410 [eventLoopGroupProxy-3-1] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: sending ping frame
+2023-04-11 19:08:05.413 [eventLoopGroupProxy-3-2] TRACE io.ktor.websocket.WebSocket - WebSocketSession(StandaloneCoroutine{Active}@3adb4d47) receiving frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:08:05.414 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket Pinger: received valid pong frame Frame PONG (fin=true, buffer len = 76)
+2023-04-11 19:08:05.414 [eventLoopGroupProxy-3-3] TRACE io.ktor.websocket.WebSocket - WebSocket pinger has timed out
+2023-04-11 19:08:08.136 [KtorShutdownHook] TRACE io.ktor.server.websocket.WebSockets - Shutdown WebSockets due to application stop
+2023-04-11 19:08:08.137 [main] TRACE io.ktor.server.websocket.WebSockets - Shutdown WebSockets due to application stop
+2023-04-11 19:08:11.339 [DefaultDispatcher-worker-2] TRACE io.ktor.websocket.WebSocket - Sending Frame CLOSE (fin=true, buffer len = 43) from session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103
+2023-04-11 19:08:11.340 [DefaultDispatcher-worker-2] TRACE io.ktor.websocket.WebSocket - Sending Close Sequence for session io.ktor.websocket.DefaultWebSocketSessionImpl@44529103 with reason CloseReason(reason=CLOSED_ABNORMALLY, message=Connection was closed without close frame) and exception null
